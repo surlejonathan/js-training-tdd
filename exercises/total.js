@@ -7,6 +7,9 @@
  */
 
 // Your code:
+const total = (array) => {
+    return array.reduce((a, b) => a + b);
+}
 
 //* Begin of tests
 const assert = require('assert');
